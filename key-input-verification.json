@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "transport": "actual local Jupyter kernel stdin messages",
+  "real_notebook_api_key_cell_executed": true,
+  "password_flag_true": true,
+  "dummy_key_activates_live": true,
+  "blank_input_clears_key_and_selects_offline": true,
+  "dummy_key_absent_from_public_execution_messages": true,
+  "provider_calls": 0,
+  "real_api_key_used": false,
+  "browser_frontends_tested": []
+}

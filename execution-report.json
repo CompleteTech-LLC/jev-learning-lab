@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "fresh_kernel": true,
+  "python": "3.13.5",
+  "code_cells_executed": 50,
+  "error_outputs": 0,
+  "run_report": {
+    "curriculum_lessons": 42,
+    "mode": "offline",
+    "requested_model": "jev-1.13.0",
+    "recorded_requests": 51,
+    "question_count": 76,
+    "statuses": {
+      "ok": 51
+    },
+    "sources": {
+      "offline_fixture": 51
+    },
+    "live_attempts": 0,
+    "usage_records_present": 0,
+    "usage_records_missing": 51,
+    "actual_api_cost_usd": null,
+    "live_inference_verified_by_offline_run": false,
+    "dspy_enabled": false
+  },
+  "live_provider_inference_tested": false,
+  "interactive_key_entry_skipped": true,
+  "optional_dspy_tested": false,
+  "optional_official_sdk_tested": false
+}

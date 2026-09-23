@@ -1,0 +1,58 @@
+{
+  "prepared_on": "2026-09-23",
+  "kind": "original educational adaptations with synthetic fixtures",
+  "live_provider_inference_performed": false,
+  "official_sdk_installed_and_tested": false,
+  "dspy_installed_and_tested": false,
+  "repositories_reviewed": [
+    {
+      "repository": "CompleteDotTech/jev-harness",
+      "path": "README.md",
+      "git_blob_sha": "6ab51cbf18ce75e2ae90c702168dec7c2773e737"
+    },
+    {
+      "repository": "CompleteDotTech/jev-factorio-agent",
+      "path": "README.md",
+      "git_blob_sha": "c050785661c22874315e7ae963de7ceebe3a49a3"
+    },
+    {
+      "repository": "CompleteDotTech/paper-package",
+      "path": "README.md",
+      "git_blob_sha": "a6afcbd988d12efc0bf17faf21a40d9977abcdaa"
+    },
+    {
+      "repository": "stanfordnlp/dspy",
+      "path": "docs/docs/learn/programming/signatures.md",
+      "git_blob_sha": "737a6d964763aab9aadac5ae6735dcc22b8b6ff1"
+    }
+  ],
+  "prior_artifacts_consulted": [
+    "jev-plc-conveyor.json",
+    "jev_manipulation_classifier.py",
+    "jev-2048-README.md",
+    "README(9).md \u2014 Checkers",
+    "README(10).md \u2014 Dots & Boxes"
+  ],
+  "prior_artifacts_redistributed": false,
+  "documentation_index": "https://docs.typesafe.ai/llms.txt",
+  "source_note": "Git blob SHAs identify retrieved README/doc versions, not a pinned full-repository checkout.",
+  "refresh": {
+    "version": "1.1.0",
+    "changes": [
+      "native masked API-key entry",
+      "session-only credential support",
+      "CompleteTech branding"
+    ],
+    "all_42_lesson_code_cells_preserved": true,
+    "branding": {
+      "repository": "CompleteTech-LLC/build-ai-skills-in-6-steps",
+      "profile_path": "assets/brand-profile.json",
+      "profile_blob_sha": "d4c1b199c11f635fd164efe54dc9e1436a917a17",
+      "logo_path": "assets/completetech_logo.jpg",
+      "logo_blob_sha": "1325b5a410c5dc4c8af75fce515a188714262c25",
+      "logo_sha256": "69d3535a5b677a56d4ff89e9eccbe94525f8690c426ff75c4d56fbeb3da3e3d1",
+      "original_logo_bytes_preserved": true
+    },
+    "live_api_tests": false
+  }
+}

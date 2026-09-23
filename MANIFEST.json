@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "release": "1.1.0",
+  "note": "Integrity inventory, not a signature. Excludes itself.",
+  "files": {
+    ".gitignore": {
+      "sha256": "29f221e37c1718b10f16f73fa30b0aa2a50eaa6809302afe71e5e847ff8d3154",
+      "bytes": 101
+    },
+    "BRANDING.md": {
+      "sha256": "40cc3154813a7d33848562813610d43bfa57495fbaecdade2845c062648c9b0b",
+      "bytes": 1035
+    },
+    "JEV_Learning_Lab.html": {
+      "sha256": "f5221a83ce94db1a59cc7873235ce23d434c8cb7367da7a2cdda46f4b5eba783",
+      "bytes": 944593
+    },
+    "JEV_Learning_Lab.ipynb": {
+      "sha256": "dd4b2d8afe0ffebcfd87b7ac1fc184384dd495c232c620716864ec24cee5ace7",
+      "bytes": 364612
+    },
+    "README.md": {
+      "sha256": "93dae1194906922e8c74085f1c77d0195e1ad6b66999ab3f8af4d21bbf383e60",
+      "bytes": 9958
+    },
+    "SOURCES.md": {
+      "sha256": "06569b25666c15919ed15970af0c92ce707128db767d71f70488ee44dba36a98",
+      "bytes": 5050
+    },
+    "START_HERE.md": {
+      "sha256": "49c4df5e8233bc87b88a4468c33fbb649e900db0f2e807ecba00253fb137f60e",
+      "bytes": 1386
+    },
+    "assets/brand-profile.json": {
+      "sha256": "6285809ada6c3ec32b96fff1774906efbb969a3a1c0febe4ec680d86391c96c6",
+      "bytes": 975
+    },
+    "assets/completetech_logo.jpg": {
+      "sha256": "69d3535a5b677a56d4ff89e9eccbe94525f8690c426ff75c4d56fbeb3da3e3d1",
+      "bytes": 46852
+    },
+    "assets/notebook-theme.css": {
+      "sha256": "6c3e9f397a8c4686a7eb5f1f91c295f54b5f86bf77460b46f8a33a474a77f3e9",
+      "bytes": 1337
+    },
+    "curriculum.json": {
+      "sha256": "39620123aa93f3e3642af53f041bb744839eb7ff87e00468f87b1424577fdbaf",
+      "bytes": 6785
+    },
+    "execution-report.json": {
+      "sha256": "f0348ff0bb6fb90bfe22b63efb1c5ec25682154d230e961cf8cf0f51ecd1c310",
+      "bytes": 741
+    },
+    "jev_runtime.py": {
+      "sha256": "04944a0cb51cd67cf85e5a1f43c30d87bc9865b8ed6c984caeb7dd77076c11e3",
+      "bytes": 15296
+    },
+    "key-input-verification.json": {
+      "sha256": "a4ce58f9fdff367f84639b2b7017745c3786a91e3de0b0825f4b04a68dcd24b4",
+      "bytes": 399
+    },
+    "provenance.json": {
+      "sha256": "a6bd8af59ae7e325078b069bd7f6886c77e8b7b656f311f085a632abfd6ea1c1",
+      "bytes": 2061
+    },
+    "requirements-dev.txt": {
+      "sha256": "77a6e34eb8c55dd371b03f5d25c8c92af224520b1117bd7d696d1886d7f5eddd",
+      "bytes": 138
+    },
+    "requirements-sdk-optional.txt": {
+      "sha256": "e95ac4bb3359c37adf866c3637d6f700457229d949c0c3ccf982abaac8753dba",
+      "bytes": 155
+    },
+    "requirements.txt": {
+      "sha256": "0ad8afcd384d488143b5d9abf1d4e68d781c384c40df797b1f83ed3dc867c4f2",
+      "bytes": 216
+    },
+    "test-report.txt": {
+      "sha256": "b5bc52b148860a9770051cf20949d59a3dabf40c04c071976290832ec544f331",
+      "bytes": 6242
+    },
+    "tests/test_credentials.py": {
+      "sha256": "2a5ecc0ea04904f9b428f525f431616662317570c6fb18b6f2ba3c95b1a1df68",
+      "bytes": 6651
+    },
+    "tests/test_learning_lab.py": {
+      "sha256": "e4914a70f55501152eb8ca49bea7b313e5cf9e187f064dd767e6672d1680400b",
+      "bytes": 13122
+    },
+    "verification.json": {
+      "sha256": "e49793b387b5103abceb318d773c8281f22c7546047ba54184e9a64ecd0255f8",
+      "bytes": 1365
+    },
+    "verify_key_prompt.py": {
+      "sha256": "858cf1c27ff7bb96dd8d9b15b98836ed3f21834bd62ff20f1f780715723bbd5b",
+      "bytes": 3321
+    },
+    "verify_notebook.py": {
+      "sha256": "94f4488f259bfac14d2ff533fb0396083bbe843631b8df3e7cbce2aa682bbfdd",
+      "bytes": 3208
+    }
+  }
+}

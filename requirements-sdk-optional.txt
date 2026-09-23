@@ -1,0 +1,3 @@
+# NOT required for the notebook's live HTTP adapter.
+# Documentation-checked reference version, not installed/tested during packaging.
+typesafe-sdk==0.7.1

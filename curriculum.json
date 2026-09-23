@@ -1,0 +1,254 @@
+[
+  {
+    "lesson": 1,
+    "title": "Decide what belongs in code",
+    "level": 1,
+    "origin": "Revisited foundation"
+  },
+  {
+    "lesson": 2,
+    "title": "Choice: route a support ticket",
+    "level": 1,
+    "origin": "Revisited: intent routing"
+  },
+  {
+    "lesson": 3,
+    "title": "Noul: one observable proposition",
+    "level": 1,
+    "origin": "Revisited: atomic questions"
+  },
+  {
+    "lesson": 4,
+    "title": "Score: descriptive levels, not arbitrary numbers",
+    "level": 1,
+    "origin": "Revisited: ordinal judgments"
+  },
+  {
+    "lesson": 5,
+    "title": "Batch independent questions; stage dependent questions",
+    "level": 1,
+    "origin": "Revisited: parallel JEV questions"
+  },
+  {
+    "lesson": 6,
+    "title": "Abstain, then choose thresholds with evidence",
+    "level": 1,
+    "origin": "Revisited: confidence-gated routing"
+  },
+  {
+    "lesson": 7,
+    "title": "Pre-parsed extraction: let code preserve the exact value",
+    "level": 2,
+    "origin": "Revisited: bounded extraction"
+  },
+  {
+    "lesson": 8,
+    "title": "Composite scoring for ITSM triage",
+    "level": 2,
+    "origin": "Revisited: atomic scores composed in code"
+  },
+  {
+    "lesson": 9,
+    "title": "Choose the next onboarding question",
+    "level": 2,
+    "origin": "New: CRM, CMDB, and ITSM onboarding"
+  },
+  {
+    "lesson": 10,
+    "title": "Discord moderation: evidence, not automatic punishment",
+    "level": 2,
+    "origin": "Revisited: moderation bot"
+  },
+  {
+    "lesson": 11,
+    "title": "Manipulation-related language without mind reading",
+    "level": 2,
+    "origin": "Revisited: one-shot statement analysis"
+  },
+  {
+    "lesson": 12,
+    "title": "RAG: choose useful evidence before generating an answer",
+    "level": 2,
+    "origin": "Revisited: passage classification"
+  },
+  {
+    "lesson": 13,
+    "title": "Citation checking: supported, contradicted, or insufficient",
+    "level": 2,
+    "origin": "Revisited: claim verification"
+  },
+  {
+    "lesson": 14,
+    "title": "CMDB entity matching: semantic evidence plus exact identity checks",
+    "level": 2,
+    "origin": "Revisited: entity alignment"
+  },
+  {
+    "lesson": 15,
+    "title": "311-style service reports: classify first, aggregate in code",
+    "level": 2,
+    "origin": "Revisited: 311 heatmap concept"
+  },
+  {
+    "lesson": 16,
+    "title": "Tool proposals and prompt injection: reject outside the allowed scope",
+    "level": 3,
+    "origin": "Revisited: approval and security boundary"
+  },
+  {
+    "lesson": 17,
+    "title": "Encoded state: compare readable, compact, and opaque forms",
+    "level": 3,
+    "origin": "Revisited: token-reduction experiments"
+  },
+  {
+    "lesson": 18,
+    "title": "More than 255 labels: a two-stage hierarchy",
+    "level": 3,
+    "origin": "Revisited: JEV answer-space limits"
+  },
+  {
+    "lesson": 19,
+    "title": "PLC challenge: a conveyor interlock scan",
+    "level": 3,
+    "origin": "Revisited: conveyor PLC example"
+  },
+  {
+    "lesson": 20,
+    "title": "PLC progression: memory, reset edges, and event interpretation",
+    "level": 3,
+    "origin": "Revisited: multi-scan PLC challenges"
+  },
+  {
+    "lesson": 21,
+    "title": "Tic-Tac-Toe: exact minimax as a teaching oracle",
+    "level": 3,
+    "origin": "Revisited: JEV Arcade"
+  },
+  {
+    "lesson": 22,
+    "title": "Connect Four: gravity and tactical filtering",
+    "level": 3,
+    "origin": "Revisited: JEV Arcade"
+  },
+  {
+    "lesson": 23,
+    "title": "Dots and Boxes: extra turns change the transition",
+    "level": 3,
+    "origin": "Revisited: JEV Arcade"
+  },
+  {
+    "lesson": 24,
+    "title": "2048: candidate afterstates and matched hidden randomness",
+    "level": 3,
+    "origin": "Revisited: separate-board JEV duel"
+  },
+  {
+    "lesson": 25,
+    "title": "Checkers: select complete legal turns, not partial jumps",
+    "level": 3,
+    "origin": "Revisited: JEV Arcade"
+  },
+  {
+    "lesson": 26,
+    "title": "A card-combat planner: compute tactics, judge strategy",
+    "level": 4,
+    "origin": "Revisited: Slay the Spire\u2013style agents"
+  },
+  {
+    "lesson": 27,
+    "title": "Factorio: one macro decision instead of one call per item",
+    "level": 4,
+    "origin": "Revisited: Factorio efficiency"
+  },
+  {
+    "lesson": 28,
+    "title": "Factorio: persistent goals, productive waiting, and verification",
+    "level": 4,
+    "origin": "Revisited: hierarchical controller"
+  },
+  {
+    "lesson": 29,
+    "title": "A reusable game-agent boundary and stale-answer rejection",
+    "level": 4,
+    "origin": "Revisited: Doom, Minecraft, and game harness ideas"
+  },
+  {
+    "lesson": 30,
+    "title": "Research graph synthesis from bounded relation candidates",
+    "level": 4,
+    "origin": "Revisited: typed graph compiler and research papers"
+  },
+  {
+    "lesson": 31,
+    "title": "Compile and retract a constrained graph",
+    "level": 5,
+    "origin": "Revisited: graph constraints and provenance"
+  },
+  {
+    "lesson": 32,
+    "title": "Code review: four narrow questions, no automatic execution",
+    "level": 5,
+    "origin": "Revisited: jev-harness and coding-agent review"
+  },
+  {
+    "lesson": 33,
+    "title": "Context paging without destroying the original memory",
+    "level": 5,
+    "origin": "Revisited: encoded state, code-review memory, and compaction"
+  },
+  {
+    "lesson": 34,
+    "title": "Cache-first decisions with explicit invalidation",
+    "level": 5,
+    "origin": "Revisited: hierarchical caching and reusable computation"
+  },
+  {
+    "lesson": 35,
+    "title": "Batching, bounded concurrency, and explicit failures",
+    "level": 5,
+    "origin": "Revisited: parallel questions and agent throughput"
+  },
+  {
+    "lesson": 36,
+    "title": "Research-grade receipts, tamper detection, and offline replay",
+    "level": 5,
+    "origin": "Revisited: causal logging and replay"
+  },
+  {
+    "lesson": 37,
+    "title": "Evaluate accuracy, abstention, and probability quality",
+    "level": 5,
+    "origin": "Revisited: game analytics and research benchmarks"
+  },
+  {
+    "lesson": 38,
+    "title": "Compare question formulations and optionally use DSPy",
+    "level": 5,
+    "origin": "Revisited: JEV + DSPy optimization"
+  },
+  {
+    "lesson": 39,
+    "title": "Active learning and drift monitoring",
+    "level": 5,
+    "origin": "New extension"
+  },
+  {
+    "lesson": 40,
+    "title": "Cost-aware tool and skill selection with lazy context loading",
+    "level": 5,
+    "origin": "New extension of the harness routing idea"
+  },
+  {
+    "lesson": 41,
+    "title": "Metamorphic and counterfactual robustness tests",
+    "level": 5,
+    "origin": "New extension"
+  },
+  {
+    "lesson": 42,
+    "title": "Capstone: an auditable incident copilot",
+    "level": 6,
+    "origin": "New synthesis of the earlier examples"
+  }
+]

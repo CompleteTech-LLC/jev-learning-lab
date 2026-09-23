@@ -1,0 +1,5 @@
+-r requirements.txt
+nbformat>=5.9,<6
+nbclient>=0.10,<1
+nbconvert>=7.16,<8
+# Tests use Python's built-in unittest; pytest is not required.

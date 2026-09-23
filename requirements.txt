@@ -1,0 +1,5 @@
+# Notebook UI. The course's Python examples and HTTP adapter use the standard library.
+jupyterlab>=4,<5
+ipykernel>=6,<8
+# Optional: the evaluation lesson prints its data even without this package.
+matplotlib>=3.7,<4

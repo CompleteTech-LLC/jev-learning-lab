@@ -1,0 +1,12 @@
+/* CompleteTech palette; system fonts only. Scoped to rendered notebook content. */
+.jp-RenderedHTMLCommon h2, .text_cell_render h2 {color:#1E3A8A;border-bottom:1px solid #E2E8F0;padding-bottom:10px;margin-top:30px;}
+.jp-RenderedHTMLCommon h3, .text_cell_render h3 {color:#0F172A;}
+.jp-RenderedHTMLCommon table, .text_cell_render table {border-collapse:collapse;line-height:1.55;}
+.jp-RenderedHTMLCommon thead th, .text_cell_render thead th {background:#0F172A;color:#fff;padding:11px 14px;text-align:left;}
+.jp-RenderedHTMLCommon tbody td, .text_cell_render tbody td {padding:10px 14px;border-bottom:1px solid #E2E8F0;}
+.jp-RenderedHTMLCommon tbody tr:nth-child(even), .text_cell_render tbody tr:nth-child(even) {background:#F8FAFC;}
+.jp-RenderedHTMLCommon blockquote, .text_cell_render blockquote {border-left:4px solid #1E3A8A;background:#EEF2FF;color:#0F172A;padding:12px 18px;}
+.jp-RenderedHTMLCommon details, .text_cell_render details {border:1px solid #E2E8F0;border-radius:8px;padding:10px 14px;margin:10px 0;}
+.jp-RenderedHTMLCommon summary, .text_cell_render summary {color:#1E3A8A;font-weight:600;cursor:pointer;}
+.jp-Stdin-input, .input_area input[type=password] {border:2px solid #1E3A8A !important;border-radius:8px !important;padding:9px 12px !important;min-width:260px;}
+.jp-Stdin-prompt {color:#1E3A8A;font-weight:600;}
