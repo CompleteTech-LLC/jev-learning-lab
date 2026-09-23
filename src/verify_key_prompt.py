@@ -6,7 +6,8 @@ import os
 import time
 from jupyter_client import KernelManager
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
+SRC = ROOT / 'src'
 DUMMY = 'JUPYTER-PROTOCOL-TEST-ONLY-NOT-A-REAL-KEY'
 
 def collect(client, parent):
@@ -39,7 +40,7 @@ def main():
     client.start_channels()
     try:
         client.wait_for_ready(timeout=30)
-        init='from jev_runtime import *\nlab = TutorialLab()\n'
+        init=f'import sys\nsys.path.insert(0, {str(SRC)!r})\nfrom jev_runtime import *\nlab = TutorialLab()\n'
         parent=client.execute(init+key_code,allow_stdin=True)
         stdin=client.get_stdin_msg(timeout=30)
         assert stdin['msg_type']=='input_request'

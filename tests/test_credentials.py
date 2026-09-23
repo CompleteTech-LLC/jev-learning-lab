@@ -13,7 +13,7 @@ from unittest.mock import patch
 import warnings
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / "src"))
 import jev_runtime as rt
 
 DUMMY = 'UNIT-TEST-DUMMY-CREDENTIAL-NOT-A-REAL-KEY'

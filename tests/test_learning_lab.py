@@ -15,7 +15,7 @@ import urllib.error
 import warnings
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / "src"))
 import jev_runtime as rt
 
 
@@ -189,7 +189,7 @@ class NotebookDomainTests(unittest.TestCase):
 
     def test_runtime_is_self_contained(self):
         embedded = next("".join(c["source"]) for c in self.cells if "runtime" in c.get("metadata",{}).get("tags",[]))
-        self.assertEqual(embedded.strip(),(ROOT/"jev_runtime.py").read_text().strip())
+        self.assertEqual(embedded.strip(),(ROOT/"src"/"jev_runtime.py").read_text().strip())
 
     def test_tictactoe_reference_draw(self):
         self.assertEqual(self.g["ttt_value"](tuple("........."),"X"),0)

@@ -131,7 +131,7 @@ For a fresh-kernel execution and an independent output notebook:
 
 ```sh
 python -m pip install -r requirements-dev.txt
-python verify_notebook.py
+python src/verify_notebook.py
 ```
 
 The verifier refuses non-offline parameter settings and refuses to overwrite an existing output
@@ -141,7 +141,7 @@ unless `--overwrite` is explicitly supplied. It writes `execution-report.json` a
 Packaging evidence is recorded in `test-report.txt`, `execution-report.json`, and
 `verification.json`. Interactive password entry is skipped in the automated full run and tested
 separately with a fake reader **and an actual local Jupyter kernel's password-input messages**.
-Run `python verify_key_prompt.py` to repeat the native-input protocol check with dummy data.
+Run `python src/verify_key_prompt.py` to repeat the native-input protocol check with dummy data.
 No real credential or provider request is used. These checks
 verify implementation mechanics, not JEV model quality or provider authentication.
 
@@ -149,13 +149,13 @@ verify implementation mechanics, not JEV model quality or provider authenticatio
 
 - `JEV_Learning_Lab.ipynb`: complete executed notebook, standalone.
 - `JEV_Learning_Lab.html`: readable edition with saved outputs and embedded chart.
-- `jev_runtime.py`: reusable teaching HTTP/fixture adapter, validation, and credential helpers.
+- `src/jev_runtime.py`: reusable teaching HTTP/fixture adapter, validation, and credential helpers.
 - `assets/completetech_logo.jpg`: original verified logo, also embedded in the notebook.
 - `assets/brand-profile.json`, `assets/notebook-theme.css`, and `BRANDING.md`: identity and source notes.
 - `tests/test_credentials.py`: masked-input, clearing, budget, and secret-exclusion regression tests.
 - `tests/test_learning_lab.py`: contract, failure, replay, and domain tests.
-- `verify_notebook.py`: fresh-kernel offline verifier.
-- `verify_key_prompt.py` and `key-input-verification.json`: real Jupyter masked-input protocol check using dummy data.
+- `src/verify_notebook.py`: fresh-kernel offline verifier.
+- `src/verify_key_prompt.py` and `key-input-verification.json`: real Jupyter masked-input protocol check using dummy data.
 - `curriculum.json`: machine-readable lesson index.
 - `SOURCES.md` and `provenance.json`: source and adaptation notes.
 - `execution-report.json`, `test-report.txt`, and `verification.json`: packaging evidence.

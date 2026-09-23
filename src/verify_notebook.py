@@ -15,7 +15,7 @@ def main() -> int:
     parser.add_argument("--output",default="JEV_Learning_Lab.verified.ipynb")
     parser.add_argument("--overwrite",action="store_true")
     args = parser.parse_args()
-    root = Path(__file__).resolve().parent
+    root = Path(__file__).resolve().parents[1]
     try:
         import nbformat
         from nbclient import NotebookClient
