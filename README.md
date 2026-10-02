@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.jpg" alt="An isometric open notebook with lesson steps leading through a verification checkmark gate and a cube node into a trail of audit record cards." width="100%"></p>
+
 # JEV Learning Lab
 ## From typed decisions to auditable agents
 
