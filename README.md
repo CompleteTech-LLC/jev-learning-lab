@@ -174,3 +174,7 @@ Hash chains demonstrate consistency relative to a trusted anchor, not authentica
 an untrusted author. Production authorization, storage, concurrency, revocation, egress, safety,
 and compliance are host responsibilities. This course is independent community educational
 material, not an official TypeSafe product or an endorsement by TypeSafe AI or DSPy.
+
+## License
+
+Code and documentation are released under the [MIT License](LICENSE).
